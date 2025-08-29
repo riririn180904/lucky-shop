@@ -3,6 +3,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Header from "../../components/header/header";
 import "../../globals.css"; // 
 import styles from "../product.module.css";
 
@@ -19,16 +20,7 @@ export default function ProductDetailPage() {
 
   return (
     <div>
-      <header className={styles.header}>
-        <div className={styles.logo}>奇跡の開運ショップ</div>
-        <div>
-        <nav>
-          <Link href="/">ホーム</Link>
-          <Link href="/">商品一覧</Link>
-          <a href="#">お問い合わせ</a>
-        </nav>
-        </div>
-      </header>
+      <Header />
 
       <main className={styles.productDetail}>
         <div className={styles.detailImg}>商品画像</div>

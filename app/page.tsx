@@ -2,22 +2,14 @@
 "use client";
 
 import Link from "next/link";
+import Header from "./components/header/header";
 import "./globals.css"; 
 import styles from "./page.module.css";
 
 export default function HomePage() {
   return (
     <div>
-      <header>
-        <div className={styles.logo}>開運の道は開けました！</div>
-        <div>
-          <nav className={styles.nav}>
-            <Link href="#">ホーム</Link>
-            <Link href="#">商品一覧</Link>
-            <Link href="#">お問い合わせ</Link>
-          </nav>
-        </div>
-      </header>
+      <Header />
 
       <section className={styles.hero}>
         <h1>人生を変える！奇跡のアイテムを期間限定で販売</h1>

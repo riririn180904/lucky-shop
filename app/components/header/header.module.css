@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background:#222;
+    color:white;
+    padding:2% 4%;}
+header .logo {
+    font-size: bold;}
+
+header nav {
+    display: flex;
+    gap:2px;
+    width: 30%;
+}
+
+header nav a {
+    color:white;
+    margin:0 4%;
+    white-space: nowrap;
+    text-decoration:underline;}
+header nav a:hover {
+    text-decoration: underline;}
