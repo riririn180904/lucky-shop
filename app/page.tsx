@@ -10,11 +10,13 @@ export default function HomePage() {
     <div>
       <header>
         <div className={styles.logo}>開運の道は開けました！</div>
-        <nav>
-          <Link href="#">ホーム</Link>
-          <Link href="#">商品一覧</Link>
-          <Link href="#">お問い合わせ</Link>
-        </nav>
+        <div>
+          <nav className={styles.nav}>
+            <Link href="#">ホーム</Link>
+            <Link href="#">商品一覧</Link>
+            <Link href="#">お問い合わせ</Link>
+          </nav>
+        </div>
       </header>
 
       <section className={styles.hero}>

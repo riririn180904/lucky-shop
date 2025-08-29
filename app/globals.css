@@ -8,6 +8,13 @@ header {
     padding:2% 4%;}
 header .logo {
     font-size: bold;}
+
+header nav {
+    display: flex;
+    gap:2px;
+    width: 30%;
+}
+
 header nav a {
     color:white;
     margin:0 4%;
