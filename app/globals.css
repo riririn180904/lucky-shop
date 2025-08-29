@@ -11,6 +11,7 @@ header .logo {
 header nav a {
     color:white;
     margin:0 4%;
+    white-space: nowrap;
     text-decoration:underline;}
 header nav a:hover {
     text-decoration: underline;}
@@ -21,7 +22,7 @@ header nav a:hover {
     padding: 0;
     background-color: #f9f9f9;
     color:#333;}
-    
+
 /*フッター*/
 footer {
     text-align:center;
