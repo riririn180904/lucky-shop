@@ -21,11 +21,13 @@ export default function ProductDetailPage() {
     <div>
       <header className={styles.header}>
         <div className={styles.logo}>奇跡の開運ショップ</div>
+        <div>
         <nav>
           <Link href="/">ホーム</Link>
           <Link href="/">商品一覧</Link>
           <a href="#">お問い合わせ</a>
         </nav>
+        </div>
       </header>
 
       <main className={styles.productDetail}>
